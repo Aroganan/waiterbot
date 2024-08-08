@@ -26,7 +26,7 @@ const database = getDatabase();
 function writeTableData(tableId, item){
     set(ref(database, "tables and items"), {
         Table_No : tableId,
-        Ordered_Item: item
+        Ordered_Item: item[0]
     });
 }
 
