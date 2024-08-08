@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "names":"fried Rice Set Menu",
+        "price": 450,
+        "image": "one"
+    },
+    {
+        "id":2,
+        "names":"fried Rice Set Menu",
+        "price": 450,
+        "image": "one"
+    },
+    {
+        "id":3,
+        "names":"fried Rice Set Menu",
+        "price": 450,
+        "image": "one"
+    },
+    {
+        "id":4,
+        "names":"fried Rice Set Menu",
+        "price": 450,
+        "image": "one"
+    },
+    {
+        "id":5,
+        "names":"fried Rice Set Menu",
+        "price": 450,
+        "image": "one"
+    },
+    {
+        "id":6,
+        "names":"fried Rice Set Menu",
+        "price": 450,
+        "image": "one"
+    },
+    {
+        "id":7,
+        "names":"fried Rice Set Menu",
+        "price": 450,
+        "image": "one"
+    },
+    {
+        "id":8,
+        "names":"fried Rice Set Menu",
+        "price": 450,
+        "image": "one"
+    }
+]

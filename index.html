@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Waiter Bot</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- nice select -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <!-- slidck slider -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css.map" integrity="undefined" crossorigin="anonymous" />
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              W Bot
+            </span>
+          </a>
+          <div class="" id="">
+            <div class="User_option">
+              <a href="">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span>Login</span>
+              </a>
+              <form class="form-inline ">
+                <input type="search" placeholder="Search" />
+                <button class="btn  nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <img src="images/menu.png" alt="">
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="testimonial.html">Testimonial</a>
+                <a href="order.html">Order</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="detail-box">
+              <h1>
+                Discover Delicious Food
+              </h1>
+              <p>
+                Cheese is the most stolen food in the world.
+              </p>
+            </div>
+            <div class="find_container ">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <form>
+                      <div class="form-row ">
+                        <div class="form-group col-lg-3">
+                          <div class="btn-box">
+                            <button type="submit" class="btn " onclick="window.open('order.html')">Search</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider_container">
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img1.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img2.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img3.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img4.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img1.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img2.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img3.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- recipe section -->
+
+  <section class="recipe_section layout_padding-top">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Our Best Popular Recipes
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/r1.jpg" class="box-img" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Breakfast
+              </h4>
+              <a href="">
+                <i class="fa fa-arrow-right" aria-hidden="true" onclick="window.open('order.html')"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/r2.jpg" class="box-img" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Lunch
+              </h4>
+              <a href="">
+                <i class="fa fa-arrow-right" aria-hidden="true" onclick="window.open('order.html')"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/r3.jpg" class="box-img" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Dinner
+              </h4>
+              <a href="">
+                <i class="fa fa-arrow-right" aria-hidden="true" onclick="window.open('order.html')"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="order.html">
+          Order Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end recipe section -->
+
+  <!-- app section -->
+
+  <section class="app_section">
+    <div class="container">
+      <div class="col-md-9 mx-auto">
+        <div class="row">
+          <div class="col-md-7 col-lg-8">
+            <div class="detail-box">
+              <h2>
+                <span> Get the</span> <br>
+                Prefer food of yours
+              </h2>
+              <p>
+                A recipe has no soul. We, as the cook, must bring to soul to the recipe. 
+                Would you like to comment on us in any way? We would be happy to hear from you.
+              </p>
+              <a href="" class="download_btn" style="margin-top: 20px;">
+                Give your feedback
+              </a>
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="img-box">
+              <img src="images/mobile.png" class="box-img" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- end app section -->
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="col-md-11 col-lg-10 mx-auto">
+        <div class="heading_container heading_center">
+          <h2>
+            About Us
+          </h2>
+        </div>
+        <div class="box">
+          <div class="col-md-7 mx-auto">
+            <div class="img-box">
+              <img src="images/bot.png" class="box-img" alt="">
+            </div>
+          </div>
+          <div class="detail-box">
+            <p>
+              Our current project involves creating a bot to serve instead of a waiter. We have no doubt that this will result in additional automation 
+              experience and fantastic performance. Nothing more to say, you're here right now. Experience something new with our bots.
+            </p>
+            <a href="">
+              <i class="fa fa-arrow-right" aria-hidden="true" onclick="window.open('about.html')"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- news section -->
+
+  <section class="news_section">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Latest News
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/fried-rice.jpg" class="box-img" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Trending Set Food - Fried-Rice
+              </h4>
+              <p>
+                We are delighted to have a set menu at a discounted price. This is accessible to all budgets.
+              </p>
+              <a href="">
+                <i class="fa fa-arrow-right" aria-hidden="true" onclick="window.open('order.html')"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/shawarma.jpg" class="box-img" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Shawarma Dish
+              </h4>
+              <p>
+                We hired a chef for this food festival week, and we are preparing something so delicious that even you would be amazed. 
+                This month's trending cuisine is shawarma.
+              </p>
+              <a href="">
+                <i class="fa fa-arrow-right" aria-hidden="true" onclick="window.open('order.html')"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end news section -->
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="col-md-11 col-lg-10 mx-auto">
+        <div class="heading_container heading_center">
+          <h2>
+            Testimonial
+          </h2>
+        </div>
+        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="detail-box">
+                <h4>
+                  Thisara
+                </h4>
+                <p>
+                  Dining at the hotel felt like stepping into the future with bots taking on the role of waiters. 
+                  I savored the String Hoppers and Biriyani Sawan, both bursting with authentic flavors. The bots swiftly served our meal, 
+                  ensuring a seamless and efficient dining experience.
+                </p>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="detail-box">
+                <h4>
+                  Tim Hook
+                </h4>
+                <p>
+                  The bots at the hotel made dining an absolute delight. I indulged in the Fried Rice Set and Shawarma Dish, 
+                  both impeccably prepared and served with precision by the bots. 
+                  It was a novel experience that elevated our meal to new heights of convenience and enjoyment.
+                </p>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="detail-box">
+                <h4>
+                  Elon Musk
+                </h4>
+                <p>
+                  Dining with bots at the hotel was an unforgettable experience. I relished the Noodles and Burger, perfectly cooked and served promptly by the bots. 
+                  Their efficiency and accuracy added a unique touch to our dining experience, making it both convenient and enjoyable.
+                </p>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="detail-box">
+                <h4>
+                  Hari
+                </h4>
+                <p>
+                  The hotel's use of bots for food service made our dining experience truly memorable. 
+                  I enjoyed the Rice with Curries and Hoppers, both of which were deliciously prepared and served by the bots. 
+                  Their swift and precise service ensured that our meal was enjoyed without any hiccups, making for a delightful dining experience.
+                </p>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev d-none" href="#customCarousel1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <div class="footer_container">
+    <!-- info section -->
+    <section class="info_section ">
+      <div class="container">
+        <div class="contact_box">
+          <a href="">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end info_section -->
+
+
+    <!-- footer section -->
+    <footer class="footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/">Waiter Bot Team</a><br>
+          <a href="https://themewagon.com/">Waiter Bot Development Team</a>
+        </p>
+      </div>
+    </footer>
+    <!-- footer section -->
+
+  </div>
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- slick  slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>

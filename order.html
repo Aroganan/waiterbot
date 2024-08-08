@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Waiter Bot-Order</title>
+
+  <link rel="stylesheet" href="css/ohter.css">
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- nice select -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <!-- slidck slider -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css.map" integrity="undefined" crossorigin="anonymous" />
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  
+
+</head>
+
+<body class="sub_page">
+
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              W Bot
+            </span>
+          </a>
+          <div class="" id="">
+            <div class="User_option">
+              <a href="">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span>Login</span>
+              </a>
+              <form class="form-inline ">
+                <input type="search" placeholder="Search" />
+                <button class="btn  nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <img src="images/menu.png" alt="">
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="testimonial.html">Testimonial</a>
+                <a href="order.html">Order</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+  </div>
+
+
+  <!-- news section -->
+
+  <section class="news_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Order food
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/fried-rice.jpg" class="box-img" alt="fride-rice">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Fried Rice Set Menu
+              </h4>
+              <div class="price">Rs.400</div>
+              <button type="button" class="btn btn-primary" style="margin-top: 20px;" onclick="add_item(0)">Add Item</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/srting_hoppers.jpg" class="box-img" alt="">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  String Hoppers
+                </h4>
+                <div class="price">Rs.300</div>
+                <button type="button" class="btn btn-primary" style="margin-top: 20px;" onclick="add_item(1)">Add Item</button>
+              </div>
+            </div>
+          </div><div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/hoppers.jpg" class="box-img" alt="">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Hoppers
+                </h4>
+                <div class="price">Rs.80</div>
+                <button type="button" class="btn btn-primary" style="margin-top: 20px;" onclick="add_item(2)">Add Item</button>
+              </div>
+            </div>
+          </div><div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/rice and curry.jpg" class="box-img" alt="">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Rice with 3 Curries
+                </h4>
+                <div class="price">Rs.250</div>
+                <button type="button" class="btn btn-primary" style="margin-top: 20px;" onclick="add_item(3)">Add Item</button>
+              </div>
+            </div>
+          </div><div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/noodles.webp" class="box-img" alt="">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Noodles
+                </h4>
+                <div class="price">Rs.300</div>
+                <button type="button" class="btn btn-primary" style="margin-top: 20px;" onclick="add_item(4)">Add Item</button>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/Sawan-ChickenBiriyani.jpg" class="box-img" alt="">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Biriyani Sawan
+                </h4>
+                <div class="price">Rs.800</div>
+                <button type="button" class="btn btn-primary" style="margin-top: 20px;" onclick="add_item(5)">Add Item</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/buger.jpg" class="box-img" alt="">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Buger
+                </h4>
+                <div class="price">Rs.650</div>
+                <button type="button" class="btn btn-primary" style="margin-top: 20px;" onclick="add_item(6)">Add Item</button>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/shawarma.jpg" class="box-img" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Shawarma Dish
+              </h4>
+              <div class="price">Rs.400</div>
+              <button type="button" class="btn btn-primary" style="margin-top: 20px;" onclick="add_item(7)">Add Item</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end news section -->
+
+  <!-- cart  -->
+  <div class="cart_button" onclick="toggle_cart()" style="position: fixed; top: 100px; right: 20px; z-index:4;">
+    <span class="cart_button_">Cart</span>
+    <span class="cart_count_items" id="cart_count_items">0</span>
+  </div>
+  <div class="cart_container" id="cart">
+    <div class="cart_container_items">
+      <div class="itmes" style="display: none;" id="friedRice">
+        <a href="#">Fried Rice Set Menu</a>
+        <a href="#" class="price_tag">400</a>
+        <div class="quantity">
+          <input type="number" min="0" max="10" step="1" value="1" onchange="calculate_total(0)" id="item_count_friedRice">
+        </div>
+      </div>
+      <div class="itmes" style="display: none;" id="stringHoppers">
+        <a href="#">String Hoppers</a>
+        <a href="#" class="price_tag">300</a>
+        <div class="quantity">
+          <input type="number" min="0" max="10" step="1" value="1" onchange="calculate_total(1)" id="item_count_stringHoppers">
+        </div>
+      </div>
+      <div class="itmes" style="display: none;" id="hoppers">
+        <a href="#">Hoppers</a>
+        <a href="#" class="price_tag">80</a>
+        <div class="quantity">
+          <input type="number" min="0" max="10" step="1" value="1" onchange="calculate_total(2)" id="item_count_hoppers">
+        </div>
+      </div>
+      <div class="itmes" style="display: none;" id="riceWithThreeCurries">
+        <a href="#">Rice with 3 Curries</a>
+        <a href="#" class="price_tag">250</a>
+        <div class="quantity">
+          <input type="number" min="0" max="10" step="1" value="1" onchange="calculate_total(3)" id="item_count_riceWithThreeCurries">
+        </div>
+      </div>
+      <div class="itmes" style="display: none;" id="noodles">
+        <a href="#">Noodles</a>
+        <a href="#" class="price_tag">300</a>
+        <div class="quantity">
+          <input type="number" min="0" max="10" step="1" value="1" onchange="calculate_total(4)" id="item_count_noodles">
+        </div>
+      </div>
+      <div class="itmes" style="display: none;" id="biriyaniSwan">
+        <a href="#">Biriyani Sawan</a>
+        <a href="#" class="price_tag">800</a>
+        <div class="quantity">
+          <input type="number" min="0" max="10" step="1" value="1" onchange="calculate_total(5)" id="item_count_biriyaniSwan">
+        </div>
+      </div>
+      <div class="items" style="display: none;" id="Buger">
+        <a href="#">Buger</a>
+        <a href="#" class="price_tag">650</a>
+        <div class="quantity">
+          <input type="number" min="0" max="10" step="1" value="1" onchange="calculate_total(6)" id="item_count_Buger">
+        </div>
+      </div>
+      <div class="items" style="display: none;" id="shawarmaDish">
+        <a href="#">Shawarma Dish</a>
+        <a href="#" class="price_tag">400</a>
+        <div class="quantity">
+          <input type="number" min="0" max="10" step="1" value="1" onchange="calculate_total(7)" id="item_count_shawarmaDish">
+        </div>
+      </div>
+      <div class="total_and_button">
+        <a class="cart_total">total  =</a>
+        <a class="cart_total" id="cart_total">amount</a>
+        <a href="#" class="cart_submit" id="Order_Item" onclick="order_palced()">Order</a>
+        <input type="text" class="table_id" id="table_id" value="Table-01">
+      </div>
+    </div>
+  </div>
+  <!-- end of cart -->
+
+  <div class="footer_container">
+    <!-- info section -->
+    <section class="info_section ">
+      <div class="container">
+        <div class="contact_box">
+          <a href="">
+            <i class="fa fa-map-marker" aria-hidden="true" onclick="window.open('https://maps.app.goo.gl/xsgGCc3jP3KhEpcB6')"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end info_section -->
+
+
+    <!-- footer section -->
+    <footer class="footer_section">
+        <div class="container">
+          <p>
+            &copy; <span id="displayYear"></span> All Rights Reserved By
+            <a href="#">Waiter Bot Team</a><br>
+            <a href="#">Waiter Bot Development Team</a>
+          </p>
+        </div>
+      </footer>
+    <!-- footer section -->
+
+    
+
+  </div>
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- slick  slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+  <!-- database -->
+  <script src="js/database.js" type="module"></script>
+
+  <!-- other js -->
+  <script defer src="js/other.js"  ></script>
+
+  
+  
+
+  
+
+
+</body>
+
+</html>

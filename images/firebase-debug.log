@@ -1,0 +1,117 @@
+[debug] [2024-03-04T10:31:01.589Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T10:31:01.592Z] Command:       C:\Users\admin\DOWNLO~1\DELFOO~1.0\DELFOO~1.0\images\firebase-tools-instant-win.exe C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init hosting
+[debug] [2024-03-04T10:31:01.592Z] CLI Version:   13.4.0
+[debug] [2024-03-04T10:31:01.592Z] Platform:      win32
+[debug] [2024-03-04T10:31:01.593Z] Node Version:  v18.5.0
+[debug] [2024-03-04T10:31:01.594Z] Time:          Mon Mar 04 2024 16:01:01 GMT+0530 (India Standard Time)
+[debug] [2024-03-04T10:31:01.594Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T10:31:01.628Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-04T10:31:01.628Z] > authorizing via signed-in user (aroganan2001@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\admin\Downloads\delfood-1.0.0\delfood-1.0.0\images
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-03-04T10:32:09.556Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-03-04T10:32:09.558Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"waiter bot projects","name":"waiterbot"}
+[debug] [2024-03-04T10:32:10.900Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-03-04T10:32:10.901Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-03-04T10:32:11.094Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-03-04T10:32:33.603Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T10:32:33.608Z] Command:       C:\Users\admin\DOWNLO~1\DELFOO~1.0\DELFOO~1.0\images\firebase-tools-instant-win.exe C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init hosting
+[debug] [2024-03-04T10:32:33.608Z] CLI Version:   13.4.0
+[debug] [2024-03-04T10:32:33.609Z] Platform:      win32
+[debug] [2024-03-04T10:32:33.609Z] Node Version:  v18.5.0
+[debug] [2024-03-04T10:32:33.610Z] Time:          Mon Mar 04 2024 16:02:33 GMT+0530 (India Standard Time)
+[debug] [2024-03-04T10:32:33.610Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T10:32:33.621Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-04T10:32:33.622Z] > authorizing via signed-in user (aroganan2001@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\admin\Downloads\delfood-1.0.0\delfood-1.0.0\images
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-03-04T10:32:49.497Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-03-04T10:32:49.498Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"waiterBot","name":"waiterbot"}
+[debug] [2024-03-04T10:32:50.850Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-03-04T10:32:50.851Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-03-04T10:32:51.037Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-03-04T10:33:28.104Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T10:33:28.106Z] Command:       C:\Users\admin\DOWNLO~1\DELFOO~1.0\DELFOO~1.0\images\firebase-tools-instant-win.exe C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init hosting
+[debug] [2024-03-04T10:33:28.106Z] CLI Version:   13.4.0
+[debug] [2024-03-04T10:33:28.107Z] Platform:      win32
+[debug] [2024-03-04T10:33:28.107Z] Node Version:  v18.5.0
+[debug] [2024-03-04T10:33:28.108Z] Time:          Mon Mar 04 2024 16:03:28 GMT+0530 (India Standard Time)
+[debug] [2024-03-04T10:33:28.108Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T10:33:28.115Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-04T10:33:28.116Z] > authorizing via signed-in user (aroganan2001@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\admin\Downloads\delfood-1.0.0\delfood-1.0.0\images
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-03-04T10:34:25.305Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-03-04T10:34:25.306Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"waiter_bot.web.app","name":"waiter_bot.firebaseapp.com"}
+[debug] [2024-03-04T10:34:26.534Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-03-04T10:34:26.535Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"},{"field":"display_name","description":"project display name contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-03-04T10:34:26.751Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
