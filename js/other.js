@@ -88,7 +88,8 @@ function order_palced(){
             final_items.push([foodItems[i][0], foodItems[i][2]]);
         };
     };
-    window.writeTableData(value="table-01",final_items);
+    let date_and_time = new Date();
+    window.writeTableData(value="table-01",final_items, date_and_time);
     
     function time_out(){
         location.reload();
