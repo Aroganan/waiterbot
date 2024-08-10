@@ -30,15 +30,25 @@ function writeTableData(tableId, item){
             // Generate the next sequential key
             const nextKey = (numberOfEntries + 1).toString().padStart(2, '0'); // E.g., "01", "02", "03", etc.
 
+            for(let i = 0; i < item.length; i++){
+                item[i].push("Order");
+            }
+
+            let tableNo_split = tableId.split("-");
             // Save the data with the sequential key
             set(ref(database, `tables_and_items/${nextKey}`), {
-                Table_No: tableId,
+                Table_No: tableNo_split[1],
                 Ordered_Item: item
             });
         } else {
+
+            for(let i = 0; i < item.length; i++){
+                item[i].push("Order");
+            }
+            let tableNo_split = tableId.split("-");
             // If no entries exist, start with "01"
             set(ref(database, `tables_and_items/01`), {
-                Table_No: tableId,
+                Table_No: tableNo_split[1],
                 Ordered_Item: item
             });
         }
